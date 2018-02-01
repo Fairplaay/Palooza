@@ -1,0 +1,296 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Platzi Palooza</title>
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash" rel="stylesheet">
+
+
+
+        <link rel="stylesheet" href="icons/foundation-icons.css">
+        <link rel="stylesheet" href="css/foundation-flex.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/precing-table.css">
+    </head>
+    <body>
+    <!-- OFFCANVAS -->
+    <div class="off-canvas-wrapper">    
+        <div class="off-canvas position-left" id="offCanvasleft" data-off-canvas>
+            <nav data-magellan>
+            <ul class="vertical menu" data-drilldown d>
+                <li>
+                    <a href="#tickets-container">Tickets</a>
+                 </li>
+                    <li>
+                        <a href="#lineup-container">LineUp</a>
+                        <ul class="vertical menu">
+                            <li><a data-toggle-dia="panelviernes" href="#lineup-container">Viernes</a></li>
+                            <li><a data-toggle-dia="panelsabado" href="#lineup-container">Sabado</a></li>
+                            <li><a data-toggle-dia="paneldomingo" href="#lineup-container">Domingo</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li>
+                        <a href="#info-container">Info</a>
+                    </li>
+                    <li>
+                        <a href="#suscribete-container">Suscribete</a>
+                    </li>
+            </ul>
+            </nav>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Your page content lives here -->
+                <!-- social -->
+        <section id="social-container">
+            <div class="row align-center text-center">
+
+                <div class="columns small-1"><a href="#" target="_blank"><i class="fi-social-facebook"></a></i></div>
+
+                <div class="columns small-1"><a href="#" target="_blank"><i class="fi-social-twitter"></i></a></div>
+
+                <div class="columns small-1"><a href="#" target="_blank"><i class="fi-social-instagram"></i></a></div>
+
+            </div>
+        </section>
+        <!-- /social -->
+        <!-- logo -->
+        <section id="logo-container">
+            <div class="callout text-center">
+                <h1>PlatziPalooza</h1>
+            </div>
+        </section>
+        <!-- /logo -->
+        <!-- menu -->
+        <section id="scrollSticky" data-sticky-container>
+            <div class="data-sticky" data-sticky data-options="marginTop:0;" 
+            data-sticky-on="small" data-top-anchor="scrollSticky">
+        <nav id="menu-container" data-magellan>
+            <div>
+                <ul class="menu show-for-small-only align-spaced">
+                    <li><a href="#" data-toggle="offCanvasleft">Menú</a></li>
+                </ul>
+                <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                    <li>
+                        <a href="#tickets-container">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="#lineup-container">LineUp</a>
+                        <ul class="menu" id="submenu-container">
+                            <li><a data-toggle-dia="panelviernes" href="#lineup-container">Viernes</a></li>
+                            <li><a data-toggle-dia="panelsabado" href="#lineup-container">Sabado</a></li>
+                            <li><a data-toggle-dia="paneldomingo" href="#lineup-container">Domingo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#info-container">Info</a>
+                    </li>
+                    <li>
+                        <a href="#suscribete-container">Suscribete</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        </section>
+        <!-- /menu -->
+        <!-- Tikets -->
+        <section id="ticket-action">
+            <div class="callout large text-center">
+                <a href="#">
+                    <button id="boton" class="large button hollow">Comprar Boletos</button>
+                </a>
+            </div>
+
+        </section>
+        <!-- /Tikets-->
+        <!-- Lineup-->
+
+        <section id="lineup-container" data-magellan-target="lineup-container">
+
+            <h3 class="text-center" id="lineup">Lineup</h3>   
+            <ul class="text-center tabs" data-tabs id="lineuptabs">
+                <li class="tabs-title is-active"><a href="#panelviernes">Viernes</a></li>
+                <li class="tabs-title"><a href="#panelsabado">Sabado</a></li>
+                <li class="tabs-title"><a href="#paneldomingo">Domingo</a></li>
+
+            </ul>
+            <div class="tabs-content" data-tabs-content="lineuptabs">
+                <!-- BANDA NUMERO UNO  -->
+                <div class="tabs-panel is-active" id="panelviernes">
+                    <div class="row">
+                        <div class="orbit small-12 medium-6 column" data-orbit>
+                            <div class="orbit-container">
+                                <div class="orbit-slide">
+                                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun's n Roses">
+                                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="orbit small-12 medium-6 column" data-orbit>
+                            <div class="orbit-container">
+                                <div class="orbit-slide">
+                                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun's n Roses">
+                                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="orbit small-12 medium-6 column" data-orbit>
+                            <div class="orbit-container">
+                                <div class="orbit-slide">
+                                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun's n Roses">
+                                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="orbit small-12 medium-6 column" data-orbit>
+                            <div class="orbit-container">
+                                <div class="orbit-slide">
+                                    <img class="orbit-image" src="http://i2.mirror.co.uk/incoming/article675034.ece/ALTERNATES/s615/Axl-Rose-and-Slash-of-Guns-N-Roses-perform-live-at-Rock-In-Rio-II-on-January-15-1991.jpg" alt="Gun's n Roses">
+                                    <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div> 
+                 <!-- BANDA NUMERO DOS -->
+                <div class="tabs-panel" id="panelsabado">
+                    <div class="row">
+                        <div class="orbit small-12 medium-6 column" data-orbit>
+                            <div class="orbit-container">
+                                <div class="orbit-slide">
+                                    <img class="orbit-image" src="http://assets.teamrock.com/image/0bd2771e-a7e9-4d9a-b311-69b58f86a5c4?w=800" alt="Green day">
+                                    <figcaption class="orbit-caption">Green Day</figcaption>
+                                </div>
+                            </div>
+                        </div>                                             
+                    </div>
+                </div> 
+                <!-- BANDA NUMERO TRES -->
+                <div class="tabs-panel" id="paneldomingo">
+                <div class="row">
+                    <div class="small-12 medium-6 column">
+                        <div class="orbit" aria-label="Green Day" data-orbit>
+                            <div class="orbit-wrapper">
+                                <div class="orbit-container">
+                                    <div class="is-active orbit-slide">
+                                        <figure class="orbit-figure">
+                                        <img class="orbit-image" src="http://assets.teamrock.com/image/0bd2771e-a7e9-4d9a-b311-69b58f86a5c4?w=800" alt="Green day" alt="Green day">
+                                        <figcaption class="orbit-caption">Green day</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+            </div>
+           
+             
+
+        </section>
+
+        <!-- /Lineup-->
+        <!-- COMPRA BOLETOS-->
+        
+        <section id="tickets-container" data-magellan-target="tickets-container">
+            <h3 class="text-center">Comprar Boletos</h3>
+            <div class="row" data-equalizer data-equalizer-on="small">
+                <div class="column small-10 medium-6 small-offset-1 medium-offset-3">
+                    <ul class="pricing-table">
+                        <li class="title">Platino</li>
+                        <li class="price">$120</li>
+                        <li class="description">Acceso al viernes,sabado y domingo</li>
+                        <li>2 Bebidas por cada dia</li>
+                        <li>Parqueadero inluido</li>
+                        <li>Participa en un sorteo</li>
+                        <li><a class="button" href="#">Comprar</a></li>
+                    </ul>
+                </div>
+                <div class="column small-6 medium-4 medium-offset-2">
+                    <ul class="pricing-table">
+                        <li class="title">Gold</li>
+                        <li class="price">$90</li>
+                        <li class="description">Acceso al viernes,sabado y domingo</li>
+                        <li data-equalizer-watch>obtendras 1 Bebidas por cada dia</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li><a class="button" href="#">Comprar</a></li>
+                    </ul>
+                </div>
+                <div class="column small-6 medium-4">
+                    <ul class="pricing-table">
+                        <li class="title">Silver</li>
+                        <li class="price">$65</li>
+                        <li class="description">Acceso al viernes,sabado y domingo</li>
+                        <li data-equalizer-watch>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li><a class="button" href="#">Comprar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- /COMPRA BOLETOS-->
+        <!-- SUSCRIPCION -->
+        <section id="suscribete-container" data-magellan-target="suscribete-container">
+            <h3 class="text-center">Suscríbete</h3>
+            <h4 class="text-center"><small>Y recibe las ultimas novedades del concierto</small></h4>
+            <form action="https://formspree.io/fairplaay16@gmail.com" method="post" novalidate="" data-abide>
+                <div data-abide-error class="row column small-12 medium-6 text-center error-container" style="display: none;">
+                    <p><i class="fi-alert"></i>Ingreso un correo electronico no valido</p>
+                </div>
+                <div class="row column small-12 medium-6">
+                    <div class="input-group">
+                        <span class="input-group-label"><i class="fi-mail"></i></span>
+                        <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com" required>
+                        <div class="input-group-button"><input type="submit" class="button" value="Suscríbeme"></div>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+
+
+
+        <!-- /SUSCRIPCION -->
+
+
+
+
+        <!-- INFO-->
+
+        <section id="info-container" data-magellan-target="info-container">
+            <h3 class="text-center">Informacion</h3>
+            <div class="text-center">
+                <div class="info-map" data-interchange="
+                [assets/map-small.html, small],
+                [assets/map.html, medium]"></div>
+            </div>
+        </section>
+
+
+
+
+        <!-- /INFO-->
+        </div>
+    </div>
+
+
+
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
